@@ -1,2 +1,13 @@
-Started at Thu May 27 22:47:03 UTC 2021
-Finished at Thu May 27 22:47:03 UTC 2021. 0ms
+Started at Mon Jun 07 11:36:02 UTC 2021
+Checking dsl_param_example
+Checking dsl_param_example_1
+Checking ENV
+Checking example_1
+Checking jenkins-dsl
+Checking jenkins-test
+Checking job_dsl_created
+Checking maven-job
+Checking pipeline
+Checking pipeline-jenkins
+Checking pipeline-test
+Finished at Mon Jun 07 11:36:02 UTC 2021. 10ms

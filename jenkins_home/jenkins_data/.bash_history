@@ -238,3 +238,30 @@ cat hosts
 nano hosts
 ls
 exit
+cd
+cd ansible/
+ls
+ansible-playbook -i hosts play.yml
+exit
+cat /tmp/remote-key 
+exit
+cd /tmp/
+ssh -i remote_user@remote_host
+ssh -i remote-key remote_user@remote_host
+ssh -i remote-key remote_user@remote_host
+ls
+pwd
+exit
+cd $HOME/ansible/
+ls
+vi play.yml 
+cat play.yml 
+exit
+ssh web
+ping web
+exit
+docker ps
+id
+exit
+docker ps
+exit

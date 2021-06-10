@@ -1,4 +1,48 @@
-Started at Sat May 29 21:54:37 UTC 2021
+Started at Tue Jun 08 01:06:33 UTC 2021
+Processing dsl_param_example
+Offering dsl_param_example to Project Build Discarder
+Processing dsl_param_example_1
+Offering dsl_param_example_1 to Project Build Discarder
+Processing ENV
+Offering ENV to Project Build Discarder
+Processing example_1
+Offering example_1 to Project Build Discarder
+Processing jenkins-dsl
+Offering jenkins-dsl to Project Build Discarder
 Processing jenkins-test
 Offering jenkins-test to Project Build Discarder
-Finished at Sat May 29 21:54:37 UTC 2021. 3ms
+Processing job_dsl_created
+Offering job_dsl_created to Project Build Discarder
+Processing maven-job
+Offering maven-job to Project Build Discarder
+Processing pipeline
+Offering pipeline to Project Build Discarder
+Processing pipeline-jenkins
+Offering pipeline-jenkins to Project Build Discarder
+Processing pipeline-test
+Offering pipeline-test to Project Build Discarder
+Finished at Tue Jun 08 01:06:33 UTC 2021. 7ms
+Started at Tue Jun 08 02:06:33 UTC 2021
+Processing dsl_param_example
+Offering dsl_param_example to Project Build Discarder
+Processing dsl_param_example_1
+Offering dsl_param_example_1 to Project Build Discarder
+Processing ENV
+Offering ENV to Project Build Discarder
+Processing example_1
+Offering example_1 to Project Build Discarder
+Processing jenkins-dsl
+Offering jenkins-dsl to Project Build Discarder
+Processing jenkins-test
+Offering jenkins-test to Project Build Discarder
+Processing job_dsl_created
+Offering job_dsl_created to Project Build Discarder
+Processing maven-job
+Offering maven-job to Project Build Discarder
+Processing pipeline
+Offering pipeline to Project Build Discarder
+Processing pipeline-jenkins
+Offering pipeline-jenkins to Project Build Discarder
+Processing pipeline-test
+Offering pipeline-test to Project Build Discarder
+Finished at Tue Jun 08 02:06:33 UTC 2021. 1ms

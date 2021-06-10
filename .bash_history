@@ -1,447 +1,3 @@
-sudo yum update -y
-sudo amazon-linux-extras install docker
-sudo service docker start
-sudo usermod -a -G docker ec2-user
-sudo systemctl enable docker
-docker info
-docker ps
-exit
-cd jenkins_home/jenkins_data/
-pwd
-cd ..
-ls
-cd centos/
-ls
-vi dockerfile
-clear
-ssh-keygen -f remote-key
-ls
-vi dockerfile 
-pwd
-ls
-cd ..
-ls
-vi docker-compose.yml 
-clear
-ls
-docker-compose build
-vi docker-compose.yml 
-cd centos/
-ls
-vi dockerfile 
-cd ..
-docker-compose build
-docker images
-docker-compose up -d
-docker ps
-clear
-docker ps
-docker exec -ti jenkins bash
-ping google.com
-cd centos/
-ls
-cat remote-key
-clear
-cd ..
-vi docker-compose.yml 
-docker-compose up -d
-docker ps
-docker images
-docker exec -ti jenkins bash
-docker logs -f db
-docker exec -ti db bash
-exit
-docker ps
-sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
-sudo chmod +x /usr/local/bin/docker-compose
-docker-compose --version
-docker pull jenkins/jenkins
-docker images
-mkdir jenkins_home
-ls
-cd jenkins_home/
-vi docker-compose.yml
-mkdir jenkins_data
-cd $PWD/jenkins_data
-vi docker-compose.yml
-cd ..
-vi docker-compose.yml 
-cd jenkins_data/
-ls
-cd ..
-sudo chown 1000:1000 jenkins_data -R
-LL
-ll
-docker-compose up -d
-docker ps
-docker images
-docker logs -f jenkins
-ls
-mkdir centos
-vi dockerfile
-df -h
-free -m
-cd jenkins_home/
-ls
-cd db_data/
-ls
-cd ..
-ls
-cd centos/
-ls
-vi dockerfile 
-cd jenkins_home/centos/
-vi dockerfile 
-ls .
-ls .dockerfile.swp 
-rm -f .dockerfile.swp 
-ls
-vi dockerfile 
-clear
-cd ..
-ls
-docker-compose build
-cd centos/
-ls
-vi dockerfile 
-docker-compose build
-cd ..
-ls
-docker-compose build
-cd ..
-cd jenkins_home/centos/
-ls
-vi dockerfile 
-cd ..
-ls
-docker-compose build
-vi docker-compose.yml 
-docker-compose build
-cd centos/
-ls
-vi dockerfile 
-cd ..
-docker-compose build
-cd ..
-cd jenkins_home/
-cd centos/
-vi dockerfile 
-pip --version
-docker exec -ti remote_host bash
-docker ps
-docker exec -ti remote-host bash
-vi dockerfile 
-cd ..
-ls
-docker-compose build
-cd centos/
-vi dockerfile 
-cd ..
-docker-compose build
-cd jenkins_home/
-docker exec -ti remote-host bash
-cd jenkins_home/
-cd centos/
-vi dockerfile 
-cd ..
-docker-compose build
-docker exec -ti remote-host bash
-ls
-cd centos/
-ls
-vi dockerfile 
-cd ..
-docker-compose build
-docker-compose up -d
-docker exec -ti remote-host bash
-docker ps
-cd jenkins_home/
-ls
-docker ps
-docker-compose build
-dockere images
-docker images
-docker rmi -f $(docker images -f dangling=true -q)
-docker images
-docker ps
-docker-compose up -d
-docker ps
-docker ps -q
-docker ps --format '{{.Names}}'
-docker exec -ti remote-host bash
-docker ps
-cd jenkins_home/
-ls
-touch /tmp/script.sh
-vi /tmp/script.sh 
-chmod +x /tmp/script.sh
-/tmp/script.sh db_host 1234 testdb
-docker ps
-docker cp /tmp/script.sh remote-host:/tmp/script.sh
-docker exec -ti remote-host bash
-docker ps
-docker exec -ti remote-host bash
-docker ps
-cd jenkins_home/
-docker ps
-docker images
-docker-compose up -d
-docker ps -a
-clear
-docker ps -a
-docker ps -a dangling=true
-cd jenkins_home/
-ls
-vi docker-compose.yml 
-docker-compose build
-docker-compose up -d
-docker exec -ti remote-host bash
-cd jenkins_home/
-ls
-mkdir jenkins-ansible
-vi dockerfile
-ls
-ls -a
-docker rm -f .dockerfile.swp
-rm -f .dockerfile.swp
-ls
-cd centos/
-ls
-cd ../jenkins-ansible/
-ls
-vi dockerfile
-clear
-cat ../centos/dockerfile 
-vi dockerfile 
-whoami
-docker exec -ti jenkins bash
-docker exec -ti remote-host bash
-cat ../centos/dockerfile 
-cat ../docker-compose.yml 
-docker exec -ti db bash
-cat ../centos/dockerfile 
-cat ../docker-compose.yml 
-cd ..
-ll
-id
-cd jenkins_home/
-docker images
-docker rmi -f $(docker images dangling=true -q)
-docker rmi $(docker images -f dangling=true -q)
-docker images
-docker ps -a
-docker ps
-docker rm $(docker ps -a -f dangling=true)
-docker ps $(docker ps ls -aq)
-docker ps -a
-docker ps rm $(docker ps ls -aq)
-docker rm $(docker ps ls -aq)
-docker container rm $(docker ps ls -aq)
-docker container rm $(docker container ls –aq)
-docker rm $(docker ps –aq)
-docker ps -a --filter status=exited
-docker rm -f $(docker ps -a --filter status=exited)
-docker rm $(docker ps -a --filter status=exited)
-docker container rm $(docker container ls -aq)
-docker ps -a
-docker-compose up -d
-docker exec -ti jenkins bash
-cat docker-compose.yml
-ls
-cp centos/remote-key jenkins-data/ansible/remotekey
-cp centos/remote-key jenkins-data/ansible/
-mkdir jenkins-data/ansible/
-mkdir jenkins-data/ansible
-ls
-mkdir jenkins_data/ansible
-rm jenkins_data/ansible
-rmdir jenkins_data/ansible
-ls
-cp centos/remote-key jenkins_data/ansible/
-mkdir jenkins_data/ansible
-cp centos/remote-key jenkins_data/ansible/
-cat jenkins_data/ansible/remote-key 
-clear
-vi jenkins_home/jenkins-ansible/dockerfile 
-cd jenkins_home/jenkins-ansible/
-ls -a
-rm -f .dockerfile.swp
-vi dockerfile 
-docker-compose build
-vi dockerfile 
-docker-compose build
-cd jenkins_home/
-vi jenkins-ansible/dockerfile 
-docker-compose build
-vi jenkins-ansible/dockerfile 
-docker-compose build
-vi jenkins-ansible/dockerfile 
-cd jenkins_home/jenkins-ansible/
-ls
-vi dockerfile 
-vi ../docker-compose.yml 
-cd ..
-ls
-docker-compose build
-vi docker-compose.yml 
-cd jenkins-ansible/
-vi dockerfile 
-cd ..
-ls
-docker-compose build
-vi jenkins-ansible/dockerfile 
-clear
-vi jenkins-ansible/dockerfile 
-docker-compose build
-vi jenkins-ansible/dockerfile 
-cat centos/dockerfile 
-vi jenkins-ansible/dockerfile 
-docker-compose build
-vi jenkins-ansible/dockerfile 
-docker-compose build
-vi jenkins-ansible/dockerfile 
-docker-compose build
-vi jenkins-ansible/dockerfile 
-docker-compose build
-vi jenkins-ansible/dockerfile 
-docker-compose build
-vi docker-compose.yml 
-docker images
-docker-compose up -d
-docker ps
-docker exec -ti jenkins-ansible bash
-docker exec -ti jenkins bash
-cat docker-compose.yml 
-cat centos/dockerfile 
-vi jenkins-ansible/dockerfile 
-docker-compose build
-vi jenkins-ansible/dockerfile 
-docker-compose build
-vi jenkins-ansible/dockerfile 
-docker-compose build
-vi jenkins-ansible/dockerfile 
-docker-compose build
-docker exec -ti jenkins bash
-exit
-docker ps
-docker images
-docker rmi -f 91f8c8495bab
-docker rmi -f 9082c8145e97 
-df -h
-cd jenkins_home/
-ls
-docker-compose up -d
-df -h
-clear
-ls
-cd jenkins-ansible/
-ls
-cd ..
-vi docker-compose.yml 
-ls
-cd jenkins_data/
-ls
-cd ansible/
-ls
-docker exec -ti jenkins bash
-cd ..
-ls
-ll
-cd ..
-ls
-cd jenkins-ansible/
-ls
-cp ../centos/remote-key .
-ls
-clear
-vi hosts
-cat ../docker-compose.yml 
-vi hosts
-docker exec -ti jenkins bash
-vi hosts
-cp hosts ../jenkins_data/ansible/
-ls ../jenkins_data/ansible/
-docker exec -ti jenkins bash
-cd jenkins_home/
-docker exec -ti jenkins bash
-cd jenkins-ansible/
-ls
-docker exec -ti jenkins bash
-ls
-vi hosts 
-docker exec -ti jenkins bash
-docker cp hosts jenkins:    "changed": false,
-    "msg": "Failed to connect to the host via ssh: remote_user@remote_host: Permission denied (publickey,gssapi-keyex,g
-ssapi-with-mic,password).",
-docker cp hosts jenkins:/var/jenkins_home/ansible/
-docker exec -ti jenkins bash
-cd ..
-ls
-docker exec -ti jenkins bash
-cd jenkins_home/
-ls
-cd centos/
-ls
-cat remote-key
-ssh-keygen -f test
-ls
-cat test
-ssh-keygen -f test1
-cat test1
-cd ..
-ls
-docker exec -ti jenkins bash
-docker ps
-docker images
-docker-compose up -d
-docker exec -ti jenkins bash
-docker-compose build
-docker-compose down
-docker-compose up -d
-docker exec -ti jenkins bash
-clear
-cd jenkins_home/
-docker ps
-docker exec -ti jenkins bash
-cd jenkins_home/
-ls
-docker exec -ti jenkins bash
-ls
-cd jenkins-ansible/
-ls
-vi dockerfile 
-clear
-ls
-cd ..
-ls
-cd jenkins-ansible/
-ls
-cd jenkins_home/
-ls
-cd jenkins-ansible/
-ls
-vi play.yml
-cp play.yml ../jenkins_data/ansible/
-docker exec -ti jenkins bash
-clear
-cd jenkins_home/
-ls
-cd jenkins-ansible/
-ls
-vi play.yml 
-clear
-docker exec -ti jenkins bash
-docker ps
-docker-compose up -d
-docker exec -ti jenkins bash
-docker ps
-docker logs -f jenkins
-cd ..
-ls
-docker-compose up -d
-docker ps
-ls
-docker ps
 ls
 clear
 docker exec -ti jenkins bash
@@ -714,3 +270,731 @@ docker exec -ti jenkins bash
 cd jenkins_home/
 ls
 docker ps
+cd jenkins_home/
+docker exec -ti jenkins bash
+pwd
+ls
+cd jenkins-ansible/
+ls
+cat remote-key 
+docker ps
+docker inspect 3a0
+docker inspect 3a0 | grep IPAdd
+docker ps
+docker inspect c79b | grep IPAdd
+docker exec -ti jenkins bash
+ls
+vi dockerfile 
+ls
+cd ../
+ls
+vi docker-compose.yml 
+cd ../
+cd -
+ls
+cd centos/
+ls
+ls -lrt
+cat dockerfile 
+vi dockerfile 
+docker ps
+docker exec -ti jenkins bash
+docker ps
+ls
+cd ../
+ls
+cd jenkins-ansible/
+ls
+vi dockerfile 
+cd ../
+ls
+cd centos/
+ls
+docker cp remote-key jenkins:/tmp
+docker exec -ti jenkins bash
+sudo yum install vim
+vim ansible.cfg
+ls
+
+docker exec -ti jenkins bash
+vi hosts[all:vars]
+vi hosts
+ls
+cd ../jenkins-ansible/
+ls
+cat hosts 
+vi hosts 
+ls
+cd ../
+cd centos/
+ls
+vi ansible.cfg 
+docker cp ansible.cfg jenkins:/tmp
+docker exec -ti jenkins bash
+cd jenkins_home/centos/
+ls
+cd ..
+cd jenkins-ansible/
+ls
+cat hosts 
+cd jenkins_home/
+ls
+docker ps
+docer exec -ti jenkins bash
+docker exec -ti jenkins bash
+cd centos/
+ls
+docker cp remote-key jenkins:/tmp/remote-key
+docker exec -ti jenkins bash
+vi dockerfile 
+clear
+pwd
+ls
+cd jenkins_home/
+ls
+cd ..
+git init
+yum install -y git
+sudo yum install -y git
+git init
+git add .
+cd jenkins_home/db_data/
+ls
+cd ~
+pwd
+ls
+sudo git add .
+sudo git status
+sudo git commit -m "first commit"
+sudo git remote add origin https://github.com/Shivaramane/jenkins-docker.git
+sudo git push -u origin master
+git rm jenkins_home/db_data/ibdata1 
+sudo git rm jenkins_home/db_data/ibdata1 
+sudo git commit --amend -C HEAD
+sudo git push -u origin master
+git pull 
+sudo git push -f origin master
+clear
+clear
+cd jenkins_home/
+ls
+docker exec -ti jenkins bash
+ls
+cd jenkins-ansible/
+ls
+vi dockerfile 
+ls
+cd ..
+ls
+cd centos/
+ls
+vi dockerfile 
+cd ..
+ls
+cat docker-compose.yml 
+cd ..
+cd jenkins_home/centos/
+cat dockerfile 
+docker exec -ti remote_host bash
+docker exec -ti remote-host bash
+docker ps
+docker images
+docker rmi 50b0f0987760
+df -h
+cd jenkins_home/
+ls
+docker-compose up -d
+ls
+docker ps
+ls -l
+cd ..
+ls -l
+id
+sudo chown 1000:1000 jenkins_home -R
+docker-compose up -d
+cd jenkins_home/
+ls
+docker-compose up -d
+docker ps
+docker logs -f jenkins
+docker ps
+ls
+vi docker-compose.yml 
+docker images
+docker-compose build
+docker-compose up -d
+docker ps
+docker logs -f db
+find / -iname ibdata1
+cd /home/ec2-user/jenkins_home/jenkins-ansible/db_data/
+ls
+mv ibdata1 ibdata1.bk
+ls
+cd ..
+ls
+docker-compose up -d
+docker ps
+docker logs -f db
+vi docker-compose.yml 
+pwd
+ls
+mkdir db_home
+vi docker-compose.yml 
+docker-compose build
+docker-compose up -d
+docker ps
+ls
+df -h db_data/
+df -s
+du -s
+du -s db_data/
+clear
+cd jenkins_home/jenkins_data/
+ls
+cd ..
+ls
+cd jenkins-ansible/
+ls
+vi play.yml
+cd jenkins_home/jenkins-ansible/
+ls
+vi play.yml 
+docker ps
+cd ..
+ls
+docker-compose up -d
+docker ps
+cd jenkins-ansible/
+ls
+vi play.yml 
+ls
+cd ..
+docker exec -ti jenkins bash
+cd jenkins_home/
+ls
+docker exec -ti jenkins bash
+cd jenkins-ansible/
+vi play.yml 
+cd ..
+cat docker-compose.yml 
+ls
+cd jenkins_data/
+ls
+cd ..
+cat docker-compose.yml 
+cd jenkins-ansible/
+ls
+docker cp play.yml jenkins:/var/jenkins_home/ansible
+docker exec -ti jenkins bash
+clear
+cd jenkins_home/jenkins-ansible/
+ls
+vi put.sh
+ls -al
+rm -f .put.sh.swp 
+ls
+vi put.sh 
+nl people.txt 
+vi put.sh 
+chmod +x put.sh 
+./put.sh 
+.put.sh
+sh put.sh 
+cat put.sh 
+vi put.sh 
+./put.sh 
+shuf -i 20-25 n 1
+shuf -i 20-25 n 
+shuf -i 20-25 
+shuf -i 20-25 -n 
+shuf -i 20-25 -n 1
+shuf -i 20-25 -n 2
+clear
+docker ps
+docker exec -ti db bash
+clear
+cd jenkins_home/jenkins-ansible/
+ls
+cat people.txt
+touch people.txt
+ls
+vi people.txt 
+clear
+pwd
+vi put.sh
+cd jenkins_home/jenkins-ansible/
+ls
+vi put.sh 
+./put.sh 
+vi put.sh 
+ls
+docker cp put.sh db:/tmp/
+docker exec -ti db bash
+ls
+docker cp people.txt db:/tmp/
+docker exec -ti db bash
+cd jenkins_home/
+ls
+cd jenkins
+cd jenkins-ansible/
+ls
+vi dockerfile 
+ls
+mv dockerfile Dockerfile
+ls
+cd ..
+ls
+vi docker-compose.yml 
+cd centos/
+ls
+mv dockerfile Dockerfile
+ls
+docker ps
+clear
+ls -l
+cd ..
+cd jenkins-ansible/
+ls
+cd web/
+ls
+cd ../../
+ls
+vi docker-compose.yml 
+pwd
+cd jenkins-ansible/web/
+ls
+pwd
+cd ../../
+vi docker-compose.yml 
+clear
+docker-compose build
+docker-compose up -d
+docker ps
+docker images
+docker-compose up -d
+cd jenkins_home/
+docker-compose up -d
+docker ps
+clear
+ls -l
+docker exec -ti web bash
+ls
+docker exec -ti web bash
+cd jenkins_home/
+ls
+cd jenkins_data/
+ls
+cd ..
+cd jenkins-ansible/
+ls
+cd ..
+cd db_data/
+ls
+cd ..
+vi docker-compose.yml 
+ls
+cd db_home/
+ls
+docker exec -ti jenkins bash
+ls
+cd ..
+cd jenkins-ansible/
+ls
+vi play.yml 
+sudo vi /etc/hosts
+clear
+exit
+cd jenkins_home/
+ls
+clear
+cd jenkins_home/
+ls
+docker-compose up -d
+docker ps
+cd jenkins_home/
+ls
+docker ps
+docker-compose up -d
+cd jenkins_home/
+ls
+docker ps
+docker-compose up -d
+docker ps
+cd jenkins_home/
+ls
+docker ps
+ls
+ll
+cd pipeline
+ls
+cd ../pipeline-templates/
+ls
+cat first-pipeline 
+cd jenkins_home/
+ls
+cd pipeline-templates/
+ll
+cat first-pipeline 
+ll
+cat multiple-steps 
+cd jenkins_home/pipeline-templates/
+ll
+cat multiple-steps 
+ls -la
+ls -lah
+cd jenkins_home/pipeline-templates/
+cat retry 
+cd jenkins_home/pipeline-templates/
+cat timeout 
+cat jenkins_home/pipeline-templates/creds 
+cd jenkins_home/
+docker ps
+cat /etc/os-release 
+ll
+cd pipeline-templates/
+ls
+cd ..
+cd pipeline
+ls
+vi Dockerfile 
+cd ..
+mkdir pipeline
+ll
+cd pipeline
+ls
+cat /var/run/docker.sock 
+ls /var/run/docker.sock 
+vi ../docker-compose.yml 
+clear
+vi ../docker-compose.yml 
+cd ..
+vi docker-compose.yml 
+cat docker-compose.yml 
+vi docker-compose.yml 
+clear
+cd jenkins_home/
+vi docker-compose.yml 
+docker-compose build
+cd jenkins_home/
+ls
+cd pipeline
+ls
+vi Dockerfile 
+cd ..
+ll
+cd jenkins-ansible/
+ls
+vi Dockerfile 
+clear
+cd ..
+ls
+cd pipeline
+ls
+vi Dockerfile 
+cd ..
+ll
+cd pipeline
+ls
+cd ..
+vi docker-compose.yml 
+docker-compose build
+docker-compose up -d
+docker ps
+docker images
+cd jenkins_home/
+ls
+docker ps
+docker exec -ti jenkins-docker bash
+docker exec -ti jenkins bash
+id
+ls -lrt /var/run/docker.sock 
+sudo chown 1000:1000 /var/run/docker.sock 
+ls -lrt /var/run/docker.sock 
+docker exec -ti jenkins bash
+cd pipeline
+ls
+cat Jenkinsfile 
+cd ..
+ls
+cd pipeline
+ls
+ll -al
+cd java-app/
+ll -al
+rm -rf .git
+ll -al
+cd ..
+ll
+cd jenkins/
+ll
+cd ..
+mkdir test/test1
+mkdir test/test1 -p
+ll
+cd test/
+ls
+cd ..
+rm -f test
+rmdir -f test
+rmdir test
+rmdir -rf test
+rmdir --help
+rmdir -p test/
+rmdir -r test/
+rm -r test
+ll
+cd jenkins_home/
+ls
+cd pipeline
+ls
+docker pull maven:3.6-alpine
+docker images
+cd jenkins_home/
+ll
+cd pipeline
+ll
+docker iamges
+docker images
+docker run --rm -v $PWD/java-app:/app -v /root/.m2/:/root/.m
+docker run --rm -v $PWD/java-app:/app -v /root/.m2/:/root/.m2/ -w /app maven:3.6-alpine mvn -B -DskipTests clean package
+ll
+cd java-app/
+ll
+cd target/
+ll
+docker images
+ls /root/.m2/
+sudo ls /root/.m2/
+cd jenkins_home/
+ls
+cd pipeline
+ll
+cd jenkins/
+ls
+cd build/
+ll
+cat mvn.sh 
+pwd
+cd ..
+pwd
+ll
+cd ..
+ll
+vi jenkins/build/mvn.sh 
+ll
+cd java-app/
+ll
+cd target/
+ll
+rm -f my-app-1.0-SNAPSHOT.jar 
+sudo rm -f my-app-1.0-SNAPSHOT.jar 
+cd ..
+ll
+cd jenkins/
+ll
+cd build/
+ll
+sudo rm -f my-app-1.0-SNAPSHOT.jar 
+chmod +x mvn.sh 
+ll
+./mvn.sh mvn -B -DskipTests clean package
+ll
+cd ../../
+ll
+cd java-app/
+ll
+cd target/
+ll
+cd jenkins_home/
+ll
+cd pipeline/jenkins/build/
+ll
+cat Dockerfile-Java 
+pwd
+cp ../../java-app/target/my-app-1.0-SNAPSHOT.jar .
+ll
+docker build -t test -f Dockerfile-Java .
+docker run --rm -ti test bash
+docker run --rm -ti test sh
+cd jenkins_home/pipeline/jenkins/
+ls
+cd test/
+ll
+vi mvn.sh 
+docker ps
+pwd
+cd ..
+ll
+cd build/
+ll
+clear
+cat mvn.sh 
+clear
+ll
+cat Dockerfile-Java 
+docker ps
+docker images
+docker run --rm -ti test sh
+docker run -d --name java_maven test
+docker ps
+docker logs -f java_maven
+docker ps -a
+ll
+cat docker-compose-build.yml 
+export BUILD_TAG=1
+docker-compose -f docker-compose-build.yml build
+docker images
+ll
+cat build.sh 
+export BUILD_TAG=2
+chmod +x build.sh 
+ll
+./build.sh 
+cd ..
+ll
+./jenkins/build/build.sh 
+docker images
+ll
+cd jenkins/build/
+ll
+cat mvn.sh 
+cat docker-compose-build.yml 
+cat Dockerfile-Java 
+cat build.sh 
+cd ..
+ll
+cd test/
+ll
+cat mvn.sh 
+cd ..
+ll
+cd build/
+ll
+cat mvn.sh 
+cd ..
+ll
+cd ..
+ll
+cd java-app/
+ll
+cd jenkins_home/pipeline
+ls
+vi Jenkinsfile 
+pwd
+ll
+cat Jenkinsfile 
+pwd
+ll
+cd java-app/
+ll
+cd target/
+ll
+cd ..
+ll
+cd jenkins/
+ll
+cd build/
+ll
+cat mvn.sh
+cd ../../
+clear
+ll
+docker run --rm  -v  $PWD/java-app:/app -v /root/.m2/:/root/.m2/ -w /app maven:3-alpine mvn test
+ll
+cd java-app/target/
+ll
+cd ..
+ll
+cd jenkins/
+ll
+cd build/
+ll
+cat mvn.sh 
+cd jenkins_home/pipeline/jenkins/build/
+ll
+cd ..
+ll
+cd ..
+ll
+cd java-app/target/
+ll
+cd surefire-reports/
+ll
+cd ../../
+cd ..
+ll
+cd jenkins/
+ll
+cd test/
+ll
+cd ../../
+cat Jenkinsfile 
+clear
+ll
+cd jenkins/build/
+ll
+cd ..
+ll
+cd test/
+cat mvn.sh 
+cd jenkins_home/
+ll
+clear
+cd pipeline
+ll
+clear
+cd jenkins_home/
+cd jenkins_home/
+ll
+cd pipeline
+ls /etc/os-release 
+cat /etc/os-release 
+sudo useradd prod_user
+ssh-keygen prod_user
+ssh-keygen -f prod_user
+ll
+clear
+cat prod_user
+cat prod_user.pub 
+clear
+cat prod_user
+ssh-keygen
+ll
+cat ~/.ssh/id_rsa.pub
+ll
+docker ps
+clear
+ssh -i ~/.ssh/id_rsa 172.31.90.49
+docker ps
+ls -al ~/.ssh/id_*.pub
+ssh-keygen -f prod_user
+ll
+cat prod_user.pub 
+clear
+ll
+cat prod_user
+sudo amazon-linux-extras install docker
+docker ps
+docker ps
+docker images
+docker images
+ll
+docker ps
+docker images
+ll
+cat prod_user.pub 
+clear
+cat prod_user
+clear
+docker images
+
+ssh-copy-id ec2-user@100.26.250.146
+ssh-copy-id ec2-user@172.31.57.105
+cat ~/.ssh/id_rsa.pub | ssh ec2-user@18.206.230.70 "mkdir -p ~/.ssh && chmod 700 ~/.ssh && cat >> ~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys"
+docker images
+docker tag maven-project:2 maven-test:2
+docker images
+docker tag maven-test maven:2
+docker images
+docker ps
+cat /etc/os-release 

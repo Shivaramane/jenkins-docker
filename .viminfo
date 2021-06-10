@@ -17,10 +17,12 @@
 $
 
 # Command Line History (newest to oldest):
-:wq!
-|2,0,1622324392,,"wq!"
 :q!
-|2,0,1622323926,,"q!"
+|2,0,1623029319,,"q!"
+:wq!
+|2,0,1622990259,,"wq!"
+:Q!
+|2,0,1622937527,,"Q!"
 
 # Search String History (newest to oldest):
 ? @$
@@ -70,268 +72,300 @@ $
 |3,0,36,0,1,0,1622257060,"t"
 
 # File marks:
-'0  4  22  ~/jenkins_home/centos/ansible.cfg
-|4,48,4,22,1622324392,"~/jenkins_home/centos/ansible.cfg"
-'1  1  0  ~/jenkins_home/jenkins-ansible/hosts
-|4,49,1,0,1622324017,"~/jenkins_home/jenkins-ansible/hosts"
-'2  1  0  ~/jenkins_home/centos/hosts
-|4,50,1,0,1622323926,"~/jenkins_home/centos/hosts"
-'3  1  22  ~/jenkins_home/centos/hosts[all:vars]
-|4,51,1,22,1622323916,"~/jenkins_home/centos/hosts[all:vars]"
-'4  5  16  ~/jenkins_home/centos/ansible.cfg
-|4,52,5,16,1622323786,"~/jenkins_home/centos/ansible.cfg"
-'5  10  16  ~/jenkins_home/centos/ansible.cfg
-|4,53,10,16,1622323786,"~/jenkins_home/centos/ansible.cfg"
-'6  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,54,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
-'7  13  0  ~/jenkins_home/centos/dockerfile
-|4,55,13,0,1622322965,"~/jenkins_home/centos/dockerfile"
-'8  19  18  ~/jenkins_home/docker-compose.yml
-|4,56,19,18,1622322723,"~/jenkins_home/docker-compose.yml"
-'9  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,57,3,8,1622322682,"~/jenkins_home/jenkins-ansible/dockerfile"
+'0  1  0  ~/jenkins_home/pipeline/Jenkinsfile
+|4,48,1,0,1623029319,"~/jenkins_home/pipeline/Jenkinsfile"
+'1  1  0  ~/jenkins_home/pipeline/jenkins/test/mvn.sh
+|4,49,1,0,1623008106,"~/jenkins_home/pipeline/jenkins/test/mvn.sh"
+'2  9  31  ~/jenkins_home/pipeline/jenkins/build/mvn.sh
+|4,50,9,31,1622990259,"~/jenkins_home/pipeline/jenkins/build/mvn.sh"
+'3  12  52  ~/jenkins_home/docker-compose.yml
+|4,51,12,52,1622937815,"~/jenkins_home/docker-compose.yml"
+'4  9  23  ~/jenkins_home/pipeline/Dockerfile
+|4,52,9,23,1622937771,"~/jenkins_home/pipeline/Dockerfile"
+'5  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,53,6,0,1622937707,"~/jenkins_home/pipeline/Dockerfile"
+'6  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,54,6,0,1622937707,"~/jenkins_home/pipeline/Dockerfile"
+'7  1  0  ~/jenkins_home/jenkins-ansible/Dockerfile
+|4,55,1,0,1622937532,"~/jenkins_home/jenkins-ansible/Dockerfile"
+'8  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,56,1,0,1622937445,"~/jenkins_home/pipeline/Dockerfile"
+'9  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,57,1,0,1622937445,"~/jenkins_home/pipeline/Dockerfile"
 
 # Jumplist (newest first):
--'  4  22  ~/jenkins_home/centos/ansible.cfg
-|4,39,4,22,1622324392,"~/jenkins_home/centos/ansible.cfg"
--'  5  16  ~/jenkins_home/centos/ansible.cfg
-|4,39,5,16,1622324321,"~/jenkins_home/centos/ansible.cfg"
--'  1  0  ~/jenkins_home/jenkins-ansible/hosts
-|4,39,1,0,1622324017,"~/jenkins_home/jenkins-ansible/hosts"
--'  1  0  ~/jenkins_home/jenkins-ansible/hosts
-|4,39,1,0,1622324017,"~/jenkins_home/jenkins-ansible/hosts"
--'  1  0  ~/jenkins_home/centos/hosts
-|4,39,1,0,1622323926,"~/jenkins_home/centos/hosts"
--'  1  0  ~/jenkins_home/centos/hosts
-|4,39,1,0,1622323926,"~/jenkins_home/centos/hosts"
--'  1  0  ~/jenkins_home/centos/hosts
-|4,39,1,0,1622323926,"~/jenkins_home/centos/hosts"
--'  1  0  ~/jenkins_home/centos/hosts
-|4,39,1,0,1622323926,"~/jenkins_home/centos/hosts"
--'  1  22  ~/jenkins_home/centos/hosts[all:vars]
-|4,39,1,22,1622323916,"~/jenkins_home/centos/hosts[all:vars]"
--'  1  22  ~/jenkins_home/centos/hosts[all:vars]
-|4,39,1,22,1622323916,"~/jenkins_home/centos/hosts[all:vars]"
--'  1  22  ~/jenkins_home/centos/hosts[all:vars]
-|4,39,1,22,1622323916,"~/jenkins_home/centos/hosts[all:vars]"
--'  1  22  ~/jenkins_home/centos/hosts[all:vars]
-|4,39,1,22,1622323916,"~/jenkins_home/centos/hosts[all:vars]"
--'  1  22  ~/jenkins_home/centos/hosts[all:vars]
-|4,39,1,22,1622323916,"~/jenkins_home/centos/hosts[all:vars]"
--'  1  22  ~/jenkins_home/centos/hosts[all:vars]
-|4,39,1,22,1622323916,"~/jenkins_home/centos/hosts[all:vars]"
--'  1  22  ~/jenkins_home/centos/hosts[all:vars]
-|4,39,1,22,1622323916,"~/jenkins_home/centos/hosts[all:vars]"
--'  1  22  ~/jenkins_home/centos/hosts[all:vars]
-|4,39,1,22,1622323916,"~/jenkins_home/centos/hosts[all:vars]"
--'  10  16  ~/jenkins_home/centos/ansible.cfg
-|4,39,10,16,1622323786,"~/jenkins_home/centos/ansible.cfg"
--'  10  16  ~/jenkins_home/centos/ansible.cfg
-|4,39,10,16,1622323786,"~/jenkins_home/centos/ansible.cfg"
--'  10  16  ~/jenkins_home/centos/ansible.cfg
-|4,39,10,16,1622323786,"~/jenkins_home/centos/ansible.cfg"
--'  10  16  ~/jenkins_home/centos/ansible.cfg
-|4,39,10,16,1622323786,"~/jenkins_home/centos/ansible.cfg"
--'  10  16  ~/jenkins_home/centos/ansible.cfg
-|4,39,10,16,1622323786,"~/jenkins_home/centos/ansible.cfg"
--'  10  16  ~/jenkins_home/centos/ansible.cfg
-|4,39,10,16,1622323786,"~/jenkins_home/centos/ansible.cfg"
--'  10  16  ~/jenkins_home/centos/ansible.cfg
-|4,39,10,16,1622323786,"~/jenkins_home/centos/ansible.cfg"
--'  10  16  ~/jenkins_home/centos/ansible.cfg
-|4,39,10,16,1622323786,"~/jenkins_home/centos/ansible.cfg"
--'  1  0  ~/jenkins_home/centos/ansible.cfg
-|4,39,1,0,1622323653,"~/jenkins_home/centos/ansible.cfg"
--'  1  0  ~/jenkins_home/centos/ansible.cfg
-|4,39,1,0,1622323653,"~/jenkins_home/centos/ansible.cfg"
--'  1  0  ~/jenkins_home/centos/ansible.cfg
-|4,39,1,0,1622323653,"~/jenkins_home/centos/ansible.cfg"
--'  1  0  ~/jenkins_home/centos/ansible.cfg
-|4,39,1,0,1622323653,"~/jenkins_home/centos/ansible.cfg"
--'  1  0  ~/jenkins_home/centos/ansible.cfg
-|4,39,1,0,1622323653,"~/jenkins_home/centos/ansible.cfg"
--'  1  0  ~/jenkins_home/centos/ansible.cfg
-|4,39,1,0,1622323653,"~/jenkins_home/centos/ansible.cfg"
--'  1  0  ~/jenkins_home/centos/ansible.cfg
-|4,39,1,0,1622323653,"~/jenkins_home/centos/ansible.cfg"
--'  1  0  ~/jenkins_home/centos/ansible.cfg
-|4,39,1,0,1622323653,"~/jenkins_home/centos/ansible.cfg"
--'  1  0  ~/jenkins_home/centos/ansible.cfg
-|4,39,1,0,1622323653,"~/jenkins_home/centos/ansible.cfg"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  9  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,9,8,1622323088,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  3  8  ~/jenkins_home/jenkins-ansible/dockerfile
-|4,39,3,8,1622323075,"~/jenkins_home/jenkins-ansible/dockerfile"
--'  13  0  ~/jenkins_home/centos/dockerfile
-|4,39,13,0,1622322965,"~/jenkins_home/centos/dockerfile"
--'  13  0  ~/jenkins_home/centos/dockerfile
-|4,39,13,0,1622322965,"~/jenkins_home/centos/dockerfile"
--'  13  0  ~/jenkins_home/centos/dockerfile
-|4,39,13,0,1622322965,"~/jenkins_home/centos/dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Jenkinsfile
+|4,39,1,0,1623029319,"~/jenkins_home/pipeline/Jenkinsfile"
+-'  1  0  ~/jenkins_home/pipeline/jenkins/test/mvn.sh
+|4,39,1,0,1623008106,"~/jenkins_home/pipeline/jenkins/test/mvn.sh"
+-'  1  0  ~/jenkins_home/pipeline/jenkins/test/mvn.sh
+|4,39,1,0,1623008106,"~/jenkins_home/pipeline/jenkins/test/mvn.sh"
+-'  9  31  ~/jenkins_home/pipeline/jenkins/build/mvn.sh
+|4,39,9,31,1622990259,"~/jenkins_home/pipeline/jenkins/build/mvn.sh"
+-'  9  31  ~/jenkins_home/pipeline/jenkins/build/mvn.sh
+|4,39,9,31,1622990259,"~/jenkins_home/pipeline/jenkins/build/mvn.sh"
+-'  9  31  ~/jenkins_home/pipeline/jenkins/build/mvn.sh
+|4,39,9,31,1622990259,"~/jenkins_home/pipeline/jenkins/build/mvn.sh"
+-'  9  31  ~/jenkins_home/pipeline/jenkins/build/mvn.sh
+|4,39,9,31,1622990259,"~/jenkins_home/pipeline/jenkins/build/mvn.sh"
+-'  1  0  ~/jenkins_home/pipeline/jenkins/build/mvn.sh
+|4,39,1,0,1622990205,"~/jenkins_home/pipeline/jenkins/build/mvn.sh"
+-'  1  0  ~/jenkins_home/pipeline/jenkins/build/mvn.sh
+|4,39,1,0,1622990205,"~/jenkins_home/pipeline/jenkins/build/mvn.sh"
+-'  1  0  ~/jenkins_home/pipeline/jenkins/build/mvn.sh
+|4,39,1,0,1622990205,"~/jenkins_home/pipeline/jenkins/build/mvn.sh"
+-'  1  0  ~/jenkins_home/pipeline/jenkins/build/mvn.sh
+|4,39,1,0,1622990205,"~/jenkins_home/pipeline/jenkins/build/mvn.sh"
+-'  12  52  ~/jenkins_home/docker-compose.yml
+|4,39,12,52,1622937815,"~/jenkins_home/docker-compose.yml"
+-'  12  52  ~/jenkins_home/docker-compose.yml
+|4,39,12,52,1622937815,"~/jenkins_home/docker-compose.yml"
+-'  12  52  ~/jenkins_home/docker-compose.yml
+|4,39,12,52,1622937815,"~/jenkins_home/docker-compose.yml"
+-'  12  52  ~/jenkins_home/docker-compose.yml
+|4,39,12,52,1622937815,"~/jenkins_home/docker-compose.yml"
+-'  12  52  ~/jenkins_home/docker-compose.yml
+|4,39,12,52,1622937815,"~/jenkins_home/docker-compose.yml"
+-'  12  52  ~/jenkins_home/docker-compose.yml
+|4,39,12,52,1622937815,"~/jenkins_home/docker-compose.yml"
+-'  12  52  ~/jenkins_home/docker-compose.yml
+|4,39,12,52,1622937815,"~/jenkins_home/docker-compose.yml"
+-'  12  52  ~/jenkins_home/docker-compose.yml
+|4,39,12,52,1622937815,"~/jenkins_home/docker-compose.yml"
+-'  9  23  ~/jenkins_home/pipeline/Dockerfile
+|4,39,9,23,1622937771,"~/jenkins_home/pipeline/Dockerfile"
+-'  9  23  ~/jenkins_home/pipeline/Dockerfile
+|4,39,9,23,1622937771,"~/jenkins_home/pipeline/Dockerfile"
+-'  9  23  ~/jenkins_home/pipeline/Dockerfile
+|4,39,9,23,1622937771,"~/jenkins_home/pipeline/Dockerfile"
+-'  9  23  ~/jenkins_home/pipeline/Dockerfile
+|4,39,9,23,1622937771,"~/jenkins_home/pipeline/Dockerfile"
+-'  9  23  ~/jenkins_home/pipeline/Dockerfile
+|4,39,9,23,1622937771,"~/jenkins_home/pipeline/Dockerfile"
+-'  9  23  ~/jenkins_home/pipeline/Dockerfile
+|4,39,9,23,1622937771,"~/jenkins_home/pipeline/Dockerfile"
+-'  9  23  ~/jenkins_home/pipeline/Dockerfile
+|4,39,9,23,1622937771,"~/jenkins_home/pipeline/Dockerfile"
+-'  9  23  ~/jenkins_home/pipeline/Dockerfile
+|4,39,9,23,1622937771,"~/jenkins_home/pipeline/Dockerfile"
+-'  9  23  ~/jenkins_home/pipeline/Dockerfile
+|4,39,9,23,1622937771,"~/jenkins_home/pipeline/Dockerfile"
+-'  9  23  ~/jenkins_home/pipeline/Dockerfile
+|4,39,9,23,1622937771,"~/jenkins_home/pipeline/Dockerfile"
+-'  9  23  ~/jenkins_home/pipeline/Dockerfile
+|4,39,9,23,1622937771,"~/jenkins_home/pipeline/Dockerfile"
+-'  9  23  ~/jenkins_home/pipeline/Dockerfile
+|4,39,9,23,1622937771,"~/jenkins_home/pipeline/Dockerfile"
+-'  9  23  ~/jenkins_home/pipeline/Dockerfile
+|4,39,9,23,1622937771,"~/jenkins_home/pipeline/Dockerfile"
+-'  9  23  ~/jenkins_home/pipeline/Dockerfile
+|4,39,9,23,1622937771,"~/jenkins_home/pipeline/Dockerfile"
+-'  9  23  ~/jenkins_home/pipeline/Dockerfile
+|4,39,9,23,1622937771,"~/jenkins_home/pipeline/Dockerfile"
+-'  9  23  ~/jenkins_home/pipeline/Dockerfile
+|4,39,9,23,1622937771,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937709,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937709,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937709,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937709,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937709,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937709,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937709,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937709,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937709,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937709,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937709,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937709,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937709,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937709,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937709,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937709,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937707,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937707,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937707,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937707,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937707,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937707,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937707,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937707,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937707,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937707,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937707,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937707,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937707,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937707,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937707,"~/jenkins_home/pipeline/Dockerfile"
+-'  6  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,6,0,1622937707,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/pipeline/Dockerfile
+|4,39,1,0,1622937547,"~/jenkins_home/pipeline/Dockerfile"
+-'  1  0  ~/jenkins_home/jenkins-ansible/Dockerfile
+|4,39,1,0,1622937532,"~/jenkins_home/jenkins-ansible/Dockerfile"
 
 # History of marks within files (newest to oldest):
 
-> ~/jenkins_home/centos/ansible.cfg
-	*	1622324391	0
-	"	4	22
-	^	4	23
-	.	4	22
-	+	5	16
-	+	4	23
-	+	4	8
-	+	5	0
-	+	4	22
-
-> ~/jenkins_home/jenkins-ansible/hosts
-	*	1622324015	0
+> ~/jenkins_home/pipeline/Jenkinsfile
+	*	1623029315	0
 	"	1	0
-	^	2	5
-	.	1	0
-	+	1	10
-	+	1	6
-	+	2	116
-	+	1	17
-	+	2	4
+
+> ~/jenkins_home/pipeline/jenkins/test/mvn.sh
+	*	1623008103	0
+	"	1	0
+
+> ~/jenkins_home/pipeline/jenkins/build/mvn.sh
+	*	1622990255	0
+	"	9	31
+	^	9	32
+	.	9	31
+	+	7	0
+	+	9	31
+
+> ~/jenkins_home/docker-compose.yml
+	*	1622937813	0
+	"	12	52
+	^	12	53
+	.	12	52
+	+	1	12
+	+	9	22
+	+	44	6
+	+	11	47
+	+	22	14
+	+	25	0
+	+	16	0
+	+	15	0
+	+	29	37
+	+	31	40
+	+	33	13
+	+	24	46
+	+	7	17
+	+	11	17
+	+	20	18
+	+	24	16
+	+	31	23
+	+	38	36
+	+	40	17
+	+	42	13
+	+	5	27
+	+	7	25
+	+	12	52
+
+> ~/jenkins_home/pipeline/Dockerfile
+	*	1622937767	0
+	"	9	23
+	^	9	24
+	.	9	0
 	+	1	0
+	+	6	0
+	+	11	0
+	+	9	0
 
-> ~/jenkins_home/centos/hosts
-	*	1622323925	0
+> ~/jenkins_home/jenkins-ansible/Dockerfile
+	*	1622937529	0
 	"	1	0
-	^	1	0
 
-> ~/jenkins_home/centos/hosts[all:vars]
-	*	1622323915	0
-	"	1	22
-	^	1	23
-	.	4	100
-	+	4	100
+> ~/jenkins_home/jenkins-ansible/play.yml
+	*	1622490013	0
+	"	5	16
+	^	5	17
+	.	5	16
+	+	4	12
+	+	5	16
 
 > ~/jenkins_home/jenkins-ansible/dockerfile
-	*	1622323087	0
+	*	1622427622	0
 	"	9	8
 	^	9	32
 	.	9	32
@@ -383,8 +417,30 @@ $
 	+	9	37
 	+	9	32
 
+> ~/jenkins_home/jenkins-ansible/put.sh
+	*	1622412059	0
+	"	13	54
+	^	13	55
+	.	13	54
+	+	3	9
+	+	10	28
+	+	14	7
+	+	11	0
+	+	10	26
+	+	11	30
+	+	5	21
+	+	12	102
+	+	13	54
+
+> ~/jenkins_home/jenkins-ansible/people.txt
+	*	1622401928	0
+	"	2	12
+	^	2	13
+	.	2	12
+	+	2	12
+
 > ~/jenkins_home/centos/dockerfile
-	*	1622322939	0
+	*	1622332947	0
 	"	13	0
 	^	26	33
 	.	26	4
@@ -404,28 +460,40 @@ $
 	+	27	0
 	+	26	4
 
-> ~/jenkins_home/docker-compose.yml
-	*	1622322722	0
-	"	19	18
-	^	30	17
-	.	30	17
-	+	1	12
-	+	9	22
-	+	35	6
-	+	11	47
-	+	21	14
-	+	24	0
-	+	15	0
-	+	14	0
-	+	28	37
-	+	30	40
-	+	32	13
-	+	23	46
-	+	7	17
-	+	11	17
-	+	19	18
-	+	23	16
-	+	30	17
+> ~/jenkins_home/centos/ansible.cfg
+	*	1622324391	0
+	"	4	22
+	^	4	23
+	.	4	22
+	+	5	16
+	+	4	23
+	+	4	8
+	+	5	0
+	+	4	22
+
+> ~/jenkins_home/jenkins-ansible/hosts
+	*	1622324015	0
+	"	1	0
+	^	2	5
+	.	1	0
+	+	1	10
+	+	1	6
+	+	2	116
+	+	1	17
+	+	2	4
+	+	1	0
+
+> ~/jenkins_home/centos/hosts
+	*	1622323925	0
+	"	1	0
+	^	1	0
+
+> ~/jenkins_home/centos/hosts[all:vars]
+	*	1622323915	0
+	"	1	22
+	^	1	23
+	.	4	100
+	+	4	100
 
 > ~/jenkins_home/jenkins_data/dockerfile
 	*	1622297358	0
@@ -455,13 +523,6 @@ $
 	+	5	0
 	+	2	0
 
-> ~/jenkins_home/jenkins-ansible/play.yml
-	*	1622203122	0
-	"	4	49
-	^	4	50
-	.	4	49
-	+	4	49
-
 > /tmp/script.sh
 	*	1621971651	0
 	"	5	9
@@ -470,9 +531,3 @@ $
 	+	1	11
 	+	6	67
 	+	5	9
-
-> ~/jenkins_home/dockerfile
-	*	1621875316	0
-	"	1	0
-	.	3	32
-	+	3	32

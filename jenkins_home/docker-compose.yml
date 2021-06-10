@@ -2,13 +2,14 @@ version: '3'
 services:
    jenkins:
        container_name: jenkins
-       image: jenkins-ansible
+       image: jenkins-docker
        build:
-         context: jenkins-ansible
+         context: pipeline
        ports:
          - "8080:8080"
        volumes:
          - "$PWD/jenkins_data:/var/jenkins_home"
+         - "/var/run/docker.sock:/var/run/docker.sock"
        networks:
          - net
 
@@ -27,10 +28,18 @@ services:
        environment:
          - "MYSQL_ROOT_PASSWORD=1234"
        volumes:
-         - "$PWD/db_data:/var/lib/mysql"
+         - "$PWD/db_home:/var/lib/mysql"
        networks:
          - net
-
+   web:
+      container_name: web
+      image: ansible-web
+      build:
+        context: jenkins-ansible/web
+      ports:
+        - "80:80"
+      networks:
+        - net
 networks:
    net:
 
